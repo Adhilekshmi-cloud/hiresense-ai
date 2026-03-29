@@ -1,0 +1,26 @@
+CAROL CHEN
+Data Scientist
+
+SUMMARY
+Data scientist with 4 years of experience in statistical modeling, machine learning,
+and NLP. Skilled at turning business questions into data-driven solutions.
+
+SKILLS
+Python, R, Scikit-learn, Pandas, NumPy, SQL, Matplotlib, Seaborn, Tableau,
+Machine Learning, Natural Language Processing, Data Analysis, Feature Engineering,
+Statistical Modeling, A/B Testing, Power BI, Excel, Communication
+
+EXPERIENCE
+Senior Data Scientist — AnalyticsCo (2022–Present)
+- Developed an NLP-based customer sentiment analysis system (BERT + Scikit-learn)
+- Built recommendation engine improving user engagement by 25%
+- Lead A/B testing framework across 3 product teams
+
+Data Analyst — BigRetail (2020–2022)
+- Created dashboards in Tableau and Power BI for executive reporting
+- Performed cohort analysis and churn prediction using logistic regression
+- Automated ETL pipelines saving 20 hours/week
+
+EDUCATION
+M.S. Data Science — Columbia University (2020)
+B.S. Mathematics — UC Berkeley (2018)

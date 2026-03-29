@@ -1,0 +1,23 @@
+DAVE WILSON
+DevOps Engineer
+
+SUMMARY
+DevOps engineer with 6 years experience in cloud infrastructure and CI/CD automation.
+Focused on AWS and Kubernetes-based deployments.
+
+SKILLS
+AWS, Azure, GCP, Docker, Kubernetes, Terraform, Ansible, Jenkins, CI/CD,
+Linux, Bash, Python, Git, GitHub Actions, Prometheus, Grafana, Helm
+
+EXPERIENCE
+Senior DevOps Engineer — CloudScale (2020–Present)
+- Managed 200+ microservices on Kubernetes across 3 AWS regions
+- Built CI/CD pipelines reducing deployment time from 2 hours to 15 minutes
+- Implemented infrastructure-as-code with Terraform (100+ modules)
+
+DevOps Engineer — ServerPros (2018–2020)
+- Migrated on-premise systems to AWS (50+ services)
+- Set up monitoring and alerting with Prometheus and Grafana
+
+EDUCATION
+B.S. Computer Engineering — Georgia Tech (2018)

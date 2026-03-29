@@ -1,0 +1,28 @@
+EVE PATEL
+NLP Research Scientist
+
+SUMMARY
+NLP researcher with 4 years of experience in language models, text mining,
+and information extraction. Published 5 papers in top-tier NLP conferences.
+
+SKILLS
+Python, PyTorch, TensorFlow, Hugging Face Transformers, BERT, GPT, LLM,
+Natural Language Processing, Deep Learning, Scikit-learn, Pandas, NumPy,
+Data Science, Machine Learning, Feature Engineering, Model Deployment,
+Research, Academic Writing, Communication
+
+EXPERIENCE
+NLP Research Scientist — AI Research Lab (2022–Present)
+- Fine-tuned LLMs for domain-specific text classification (F1: 0.96)
+- Developed a novel entity recognition system for medical texts
+- Published 3 papers at ACL and EMNLP conferences
+
+Research Assistant — University NLP Lab (2020–2022)
+- Built text summarization models using BART and T5
+- Created benchmark datasets for sentiment analysis in low-resource languages
+- 2 papers published at NAACL
+
+EDUCATION
+Ph.D. Computer Science (NLP) — Carnegie Mellon University (2024, expected)
+M.S. Artificial Intelligence — University of Edinburgh (2020)
+B.Tech Computer Science — IIT Delhi (2018)

@@ -1,0 +1,2 @@
+We are looking for a Python developer with machine learning and NLP experience.
+Skills required: Python, Scikit-learn, Pandas, Natural Language Processing.

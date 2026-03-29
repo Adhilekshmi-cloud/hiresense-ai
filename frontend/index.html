@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#06080f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>AI Resume Screener — Semantic Matching &amp; Explainability</title>
+  <meta name="description" content="Production-grade AI resume screening system with semantic similarity, weighted scoring, and full explainability. Built with Sentence Transformers." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>🚀</text></svg>" />
+  <link rel="stylesheet" href="/static/index.css" />
+</head>
+<body>
+
+<div class="app-container">
+
+  <!-- ──────────── Header ──────────── -->
+  <header class="header" id="header">
+    <span class="header__icon">🚀</span>
+    <h1 class="header__title">AI Resume Screener</h1>
+    <p class="header__subtitle">Semantic matching · Weighted scoring · Full explainability</p>
+    <div class="header__badges">
+      <span class="badge">🧠 Sentence Transformers</span>
+      <span class="badge">⚡ FastAPI Backend</span>
+      <span class="badge">📊 Multi-Model Comparison</span>
+    </div>
+  </header>
+
+  <!-- ──────────── Input Section ──────────── -->
+  <section class="section">
+    <div class="grid-2">
+
+      <!-- Upload Panel -->
+      <div class="card">
+        <h2 class="section__title">📂 Upload Resumes</h2>
+        <div class="upload-zone" id="uploadZone">
+          <input type="file" id="fileInput" multiple accept=".pdf,.docx,.txt" />
+          <span class="upload-zone__icon">📄</span>
+          <p class="upload-zone__text">Drag &amp; drop files or <strong>browse</strong></p>
+          <p class="upload-zone__hint">Supports PDF, DOCX, TXT — up to 10 MB</p>
+        </div>
+        <div class="file-list" id="fileList"></div>
+        <div id="uploadStatus"></div>
+      </div>
+
+      <!-- Job Description Panel -->
+      <div class="card">
+        <h2 class="section__title">📄 Job Description</h2>
+        <label class="form-label" for="jobDescription">Paste the job description below</label>
+        <textarea
+          id="jobDescription"
+          placeholder="We are looking for a Python developer with 3+ years of experience in machine learning and NLP. The ideal candidate should have experience with deep learning frameworks like PyTorch or TensorFlow, and strong skills in data analysis using Pandas and Scikit-learn..."
+        ></textarea>
+        <div style="margin-top: 1rem;">
+          <label class="form-label" for="modelSelect">Embedding Model</label>
+          <select id="modelSelect">
+            <option value="all-MiniLM-L6-v2">⚡ all-MiniLM-L6-v2 (Fast)</option>
+            <option value="all-mpnet-base-v2">🎯 all-mpnet-base-v2 (Accurate)</option>
+          </select>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ──────────── Action Buttons ──────────── -->
+  <section class="section">
+    <div class="btn-group">
+      <button class="btn btn--primary btn--lg btn--full" id="btnScreen" disabled>
+        🔍 Screen Resumes
+      </button>
+      <button class="btn btn--secondary btn--lg btn--full" id="btnCompare" disabled>
+        📊 Compare Models
+      </button>
+    </div>
+  </section>
+
+  <!-- ──────────── Results Section ──────────── -->
+  <section class="section hidden" id="resultsSection">
+    <h2 class="section__title">🏆 Screening Results</h2>
+
+    <div class="metrics-row" id="metricsRow"></div>
+
+    <div class="candidate-list" id="candidateList"></div>
+
+    <div class="download-section">
+      <button class="btn btn--secondary" id="btnDownload">
+        📥 Download Results CSV
+      </button>
+    </div>
+  </section>
+
+  <!-- ──────────── Comparison Section ──────────── -->
+  <section class="section hidden" id="comparisonSection">
+    <h2 class="section__title">📊 Model Comparison</h2>
+    <div class="timing-cards" id="timingCards"></div>
+    <div class="card">
+      <h3 style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Similarity Scores by Model</h3>
+      <table class="comparison-table" id="comparisonTable">
+        <thead></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

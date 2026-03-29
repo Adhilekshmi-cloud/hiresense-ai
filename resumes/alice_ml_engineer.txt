@@ -1,0 +1,26 @@
+ALICE MARTINEZ
+Senior Machine Learning Engineer
+
+SUMMARY
+Experienced ML engineer with 5+ years building production NLP and computer vision systems.
+Passionate about deploying scalable AI solutions using modern frameworks.
+
+SKILLS
+Python, PyTorch, TensorFlow, Scikit-learn, Pandas, NumPy, Hugging Face Transformers,
+BERT, GPT, Natural Language Processing, Deep Learning, Docker, AWS, Kubernetes,
+FastAPI, SQL, PostgreSQL, Git, CI/CD, MLOps, Model Deployment
+
+EXPERIENCE
+Senior ML Engineer — TechCorp AI (2021–Present)
+- Built a resume screening pipeline using Sentence Transformers and FAISS
+- Deployed NLP models serving 10K+ daily requests via FastAPI on AWS
+- Achieved 94% accuracy on text classification tasks using fine-tuned BERT
+
+ML Engineer — DataWorks Inc. (2019–2021)
+- Developed computer vision models for product quality inspection
+- Reduced inference time by 40% using model quantization (ONNX)
+- Built data pipelines processing 2TB+ daily using Apache Spark
+
+EDUCATION
+M.S. Computer Science — Stanford University (2019)
+B.Tech Information Technology — IIT Bombay (2017)
